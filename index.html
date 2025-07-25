@@ -1,160 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-	<link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио Никита Михайлов</title>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="stil.css" />
 </head>
 <body>
-	<header class="header" id="header">
-		<nav class="nav container">
-			<a href="#" class="nav__logo"><i class='bx  bx-wrist-watch-round'  ></i>Rolex</a>
 
-			<div class="nav__menu" id="nav-menu"> 
-				<ul class="nav__list">
-					<li class="nav__item">
-						<a href="#home" class="nav__link active-link">Home</a>
-					</li>
-					<li class="nav__item">
-						<a href="#featured" class="nav__link">Featured</a>
-					</li>
-					<li class="nav__item">
-						<a href="#products" class="nav__link">Products</a>
-					</li>
-					<li class="nav__item">
-						<a href="gallery.html" class="nav__link">Gallery</a>
-					</li>
-				</ul>
-			</div>
+  <!-- Навигация -->
+  <!-- НАЧАЛО ХЕДЕРА -->
+<header>
+  <div class="container header-container">
 
-			<div class="nav__btns">
-				<div class="nav__shop" id="cart-shop">
-					<i class="bx bx-shopping-bag"></i>
-				</div>
+    <!-- БЛОК ЛОГОТИПА -->
+ <div class="container header-container">
 
-				<div class="nav__toggle" id="nav-toggle">
-					<i class='bxr  bx-categories'  ></i> 
-				</div>
+    <!-- БЛОК ЛОГОТИПА -->
+    <div class="logo-wrapper">
+      <a href="/" onclick="location.reload(); return false;" class="logo-link" aria-label="Логотип">
+        <!-- Указан путь к твоему логотипу -->
+        <img src="images/kandinsky-download-1750825705159-removebg-preview.png" alt="Логотип Никита Михайлов" class="logo-img" />
+        <span class="logo-text">Никита Михайлов</span>
+      </a>
+    </div>
 
-				<div class="nav__close" id="nav-close">
-					<i class="bx bx-x"></i>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<main class="main">
-		<section class="home" id="home">
-			<div class="home__container container grid">
-				<div class="home__img-bg">
-					<img src="images/home.png" alt="" class="home__img">
-				</div>
-				<div class="home__social">
-					<a href="https://facebook.com" target="_blank" class="home__social-link">Facebook</a>
-					<a href="https://x.com" target="_blank" class="home__social-link">X (Twitter)</a>
-					<a href="https://instagram.com" target="_blank" class="home__social-link">Instagram</a>
-				</div>
-				<div class="home__data">
-					<h1 class="home__title">NEW WATCH <br> COLLECTIONS B720</h1>
-					<p class="home__description">
-						Latest arrival of the new imported watches of the B720 series, 
-						with a modern and resistent design.
-					</p>
-					<span class="home__price">$1234</span>
-					<div class="home__btns">
-						<a href="#" class="button button--gray button--small">
-							Discover
-						</a>
-						<button class="button home__button">ADD TO CART</button>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section container" id="featured">
-			<h2 class="section__title">
-				Featured
-			</h2>
-			<div class="featured__container grid">
-				<article class="featured__card">
-					<span class="featured__tag">Sale</span>
-					<img src="images/featured1.png" alt="" class="featured__img">
-					<div class="featured__data">
-						<h3 class="featured__title">Jazzmaster</h3>
-						<span class="featured__price">$1050</span>
-					</div>
-					<button class="button featured__button">ADD TO CART</button>
-				</article>
-				<article class="featured__card">
-					<span class="featured__tag">Sale</span>
-					<img src="images/featured2.png" alt="" class="featured__img">
-					<div class="featured__data">
-						<h3 class="featured__title">Ingersoll</h3>
-						<span class="featured__price">$250</span>
-					</div>
-					<button class="button featured__button">ADD TO CART</button>
-				</article>
-				<article class="featured__card">
-					<span class="featured__tag">Sale</span>
-					<img src="images/featured3.png" alt="" class="featured__img">
-					<div class="featured__data">
-						<h3 class="featured__title">Rose gold</h3>
-						<span class="featured__price">$890</span>
-					</div>
-					<button class="button featured__button">ADD TO CART</button>
-				</article>
-			</div>
-		</section>
-		<section class="testimonial section container">
-			<div class="testimonial__container grid">
-				<div class="testimonial__slider">
-					<div class="testimonial-card" id="slide1">
-						<div class="testimonial__quote">
-							<img src="https://www.svgrepo.com/show/335145/quote.svg" alt="">
-						</div>
-						<p class="testimonial__description">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis consectetur vero optio fuga aspernatur animi, illo quisquam labore laborum ipsum nemo totam doloremque perspiciatis officiis placeat nam, quidem officia voluptatem culpa illum consequatur aliquam repellat voluptatibus qui. Quam excepturi, magnam ex numquam quos eaque? Voluptas quisquam quos voluptates ipsum asperiores!
-						</p>
-						<h3 class="testimonial__date">March 27, 2025</h3>
-						<div class="testimonial__author">
-							<img src="images/testimonial1.jpg" alt="" class="author-img">
-							<div class="author-data">
-								<span class="author-name">Jhon Doe</span>
-								<span class="author-detail">Director of a company</span>
-							</div>
-						</div>
-						<a class="prev">
-							<img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow-pointing-left.png" alt="">
-						</a>
-						<a class="next" href="#slide2">
-							<img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow.png" alt="">
-						</a>
-					</div>
-					<div class="testimonial-card" id="slide2">
-						<div class="testimonial__quote">
-							<img src="https://www.svgrepo.com/show/335145/quote.svg" alt="">
-						</div>
-						<p class="testimonial__description">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis consectetur vero optio fuga aspernatur animi, illo quisquam labore laborum ipsum nemo totam doloremque perspiciatis officiis placeat nam, quidem officia voluptatem culpa illum consequatur aliquam repellat voluptatibus qui. Quam excepturi, magnam ex numquam quos eaque? Voluptas quisquam quos voluptates ipsum asperiores!
-						</p>
-						<h3 class="testimonial__date">March 27, 2025</h3>
-						<div class="testimonial__author">
-							<img src="images/testimonial2.jpg" alt="" class="author-img">
-							<div class="author-data">
-								<span class="author-name">Mary Joe</span>
-								<span class="author-detail">Unknown</span>
-							</div>
-						</div>
-						<a class="prev" href="#slide1">
-							<img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow-pointing-left.png" alt="">
-						</a>
-						<a class="next" href="#slide1">
-							<img src="https://img.icons8.com/sf-ultralight-filled/50/000000/arrow.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+    <!-- НАВИГАЦИЯ -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#works">Работы</a></li>
+        <li><a href="#bio">Автобиография</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+
+      <!-- БУРГЕР-МЕНЮ -->
+      <button class="nav-toggle" aria-label="Меню">
+        <span class="burger"></span>
+        <span class="burger"></span>
+        <span class="burger"></span>
+      </button>
+    </nav>
+
+  </div>
+</header>
+<!-- КОНЕЦ ХЕДЕРА -->
+
+  <!-- Обложка -->
+  <section id="home" class="cover">
+    <div class="cover-content">
+      <h1>Никита Михайлов</h1>
+      <p>Привет! Я занимаюсь веб-дизайном, графикой, 2D-анимацией и ИИ в творчестве.</p>
+      <a href="#contact" class="btn">Связаться</a>
+    </div>
+  </section>
+
+  <!-- Навыки -->
+  <section id="skills" class="skills">
+    <h2>Навыки</h2>
+    <ul class="skills-list">
+      <li>Офисные программы (Word, Excel, PowerPoint)</li>
+      <li>Создание сайтов на Tilda</li>
+      <li>Графический дизайн в Photoshop</li>
+      <li>ИИ: сайты, изображения, видео, музыка</li>
+    </ul>
+  </section>
+
+  <!-- Работы -->
+  <section id="works" class="works">
+    <h2>Выполненные работы</h2>
+    <div class="work-items">
+      <div class="work-item">
+        <h3>Рекламный постер</h3>
+        <p>Постер в Photoshop с современными трендами.</p>
+        <img src="images/ChatGPT Image 17 июн. 2025 г., 10_34_55.png" alt="Постер">
+      </div>
+
+      <div class="work-item">
+        <h3>Презентация</h3>
+        <p>Бизнес-презентация со слайдами и анимацией.</p>
+        <img src="images/maxresdefault.jpg" alt="Постер">
+      </div>
+
+      <div class="work-item">
+        <h3>Сайт на Tilda</h3>
+        <p>Лендинг для стартапа, созданный на Tilda.</p>
+        <img src="images/image.webp" alt="Постер">
+        <a href="https://example.tilda.ws" target="_blank">Открыть</a>
+      </div>
+
+      <div class="work-item">
+        <h3>Комикс</h3>
+        <p>Иллюстрации иAI-генерация идей.</p>
+        <img src="images/1574884783185317124.jpg" alt="Комикс">
+      </div>
+
+      <div class="work-item">
+  <video autoplay muted loop playsinline>
+    <source src="videos/invideo-ai-1080 N1KO Gaming Club Cyberpunk Commercial 2025-06-26.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <h3>Видео-реклама ИИ</h3>
+  <p>Реклама, сгенерированная AI.</p>
+  <a href="videos/ai_ad_example.mp4" target="_blank">Смотреть</a>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Автобиография -->
+  <section id="bio" class="bio">
+    <h2>Автобиография</h2>
+    <p>
+      Я, Никита Михайлов Владиславович, родился(ась) ...<br>
+      Образование: ...<br>
+      Опыт работы: ...<br>
+      Увлечения: ...<br>
+      Цели: ...
+    </p>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="contact">
+    <h2>Связаться со мной</h2>
+    <form class="contact-form">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Сообщение:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+  </section>
+
+  <!-- Подвал -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Никита Михайлов</p>
+      <div class="social-icons">
+        <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="icons/vk.svg" alt="VK"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
